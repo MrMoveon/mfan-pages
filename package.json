@@ -1,16 +1,11 @@
 {
   "name": "mfan-pages",
   "version": "0.0.1",
-  "description": "static pages workflow",
+  "description": "mfan-page ",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "lib": "lib"
   },
-  "keywords": [
-    "mfan-pages"
-  ],
-  "author": "afei",
-  "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.10.3",
     "@babel/preset-env": "^7.10.3",
@@ -19,6 +14,7 @@
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-if": "^3.0.0",
     "gulp-imagemin": "^7.1.0",
@@ -28,5 +24,24 @@
     "gulp-uglify": "^3.0.2",
     "gulp-useref": "^4.0.1",
     "node-sass": "^4.14.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrMoveon/mfan-pages.git"
+  },
+  "keywords": [
+    "mfan",
+    "gulp",
+    "pages"
+  ],
+  "author": "afei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrMoveon/mfan-pages/issues"
+  },
+  "homepage": "https://github.com/MrMoveon/mfan-pages#readme"
 }
