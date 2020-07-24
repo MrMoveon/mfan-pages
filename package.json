@@ -19,6 +19,7 @@
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
+    "gulp-cached": "^1.1.1",
     "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.3.0",
     "gulp-htmlmin": "^5.0.1",
@@ -39,7 +40,6 @@
     "gulp-zip": "^5.0.2",
     "node-sass": "^4.14.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
